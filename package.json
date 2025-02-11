@@ -1,0 +1,22 @@
+{
+  "name": "newportfolio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build-css": "tailwindcss build src/style.css -o public/style.css",
+    "watch-css": "tailwindcss -i  src/style.css -o public/style.css --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "daisyui": "^3.2.1",
+    "tailwindcss": "^3.3.2"
+  },
+  "dependencies": {
+    "@rive-app/canvas": "^2.11.1",
+    "tilt.js": "^1.2.1",
+    "vanilla-tilt": "^1.8.0"
+  }
+}
